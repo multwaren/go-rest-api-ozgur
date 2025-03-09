@@ -24,8 +24,8 @@ Docker
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/
-cd 
+git clone https://github.com/multwaren/go-rest-api-ozgur.git
+cd go-rest-api-ozgur
 ```
 
  After cloning this repo to your local machine you should navigate to the directory.
@@ -66,8 +66,5 @@ You dont have to use User system, Keep in mind all the endpoints are accessible 
 - /api/v1/reviews
 - /api/v1/review/"Review ID"
 ```
-!! GET, POST, PUT requests can be done as visitor but to use DELETE you need to have registered as Admin.
-
-
 ## Swaagger DOCS
 Can be accessed from http://localhost:8080/swagger/index.html
