@@ -25,10 +25,15 @@ import (
 	_ "go-rest-api-ozgur/docs" // Import Swagger docs
 )
 
-// @title           BookClub
+// @title           BookLAB
 // @version         1.0
 // @description     Database manipulation with go.
 // @termsOfService  http://swagger.io/terms/
+
+// @contact.name   Ozgur Dogan GUNES
+// @contact.email  ozgurdoganyil@gmail.com
+
+
 
 // @license.name  MIT
 // @license.url   https://opensource.org/licenses/MIT
