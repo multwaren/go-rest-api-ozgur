@@ -15,9 +15,9 @@ containerization to develop the application within a containerized environment
 
 ## Requirements
 
-Go 1.18 or higher recommended(1.23.0)
-Postgresql
-Docker
+- Go 1.18 or higher recommended(1.23.0)
+- Postgresql
+- Docker
 
 ### Local Installation
 
@@ -46,14 +46,15 @@ docker compose up
 Build the containers and it will ben run it.
 
 
-## To TEST it 
+## TEST
 You can either use Insomnia or visit; 
 ```
 http://localhost:8080/"WRITE-A-ROUTE-HERE"
 ```
-you can try and use all the endpoints listed below:
+You can try and use all the endpoints listed below:
 
-You dont have to use User system, Keep in mind all the endpoints are accessible for public except DELETE. It is a protected route only for Admins.
+You do not need to use the User system to access these endpoints. However, please note that all endpoints are publicly accessible, except for the `DELETE` method, which is a protected route and can only be accessed by Admin users.
+
 ```
 - /api/v1/auth/register
 - /api/v1/auth/login
